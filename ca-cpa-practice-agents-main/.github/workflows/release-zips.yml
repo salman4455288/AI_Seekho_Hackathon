@@ -1,0 +1,44 @@
+name: Build Downloadable Zips
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-zips:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create download zips
+        run: |
+          mkdir -p dist
+
+          # Exercise data (primary download for learners)
+          zip -r dist/ca-cpa-exercise-data.zip \
+            exercises/ \
+            -x '*.git*' -x '*/.gitkeep'
+
+          ls -lh dist/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/ca-cpa-exercise-data.zip
+          body: |
+            ## Chapter 19 Companion Materials
+
+            **Download:** `ca-cpa-exercise-data.zip` — trial balances, entity profiles, source documents, and working paper templates for Exercises 1-24.
+
+            **For reference skills and workflow recipes**, clone the repo directly:
+            ```bash
+            git clone https://github.com/panaversity/ca-cpa-practice-agents.git
+            ```
+
+            See `reference-skills/` for Pakistan-default SKILL.md examples and `workflow-recipes/` for scheduling templates.
