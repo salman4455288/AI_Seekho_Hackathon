@@ -1,0 +1,48 @@
+name: insightflow
+description: Autonomous Content-to-Action Agent powered by Gemini AI & Supabase
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # AI / HTTP
+  http: ^1.2.0
+  google_generative_ai: ^0.4.6
+
+  # Supabase backend
+  supabase_flutter: ^2.5.6
+
+  # UI & animations
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  lottie: ^3.1.0
+  percent_indicator: ^4.2.3
+  timeline_tile: ^2.0.0
+
+  # Utilities
+  flutter_dotenv: ^5.1.0
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  file_picker: ^6.1.1
+  flutter_markdown: ^0.6.22
+  url_launcher: ^6.2.5
+  shimmer: ^3.0.0
+  fl_chart: ^0.68.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/
+    - assets/animations/

@@ -1,0 +1,1726 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "action_card.dart",
+      "file_type": "code",
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "id": "action_card_dart",
+      "community": 1,
+      "norm_label": "action_card.dart"
+    },
+    {
+      "label": "ActionCard",
+      "file_type": "code",
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_action_card_dart_actioncard",
+      "community": 1,
+      "norm_label": "actioncard"
+    },
+    {
+      "label": "_priorityColor",
+      "file_type": "code",
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_action_card_dart_prioritycolor",
+      "community": 1,
+      "norm_label": "_prioritycolor"
+    },
+    {
+      "label": "_effortColor",
+      "file_type": "code",
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_action_card_dart_effortcolor",
+      "community": 1,
+      "norm_label": "_effortcolor"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_action_card_dart_build",
+      "community": 1,
+      "norm_label": "build"
+    },
+    {
+      "label": "GestureDetector",
+      "file_type": "code",
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_action_card_dart_gesturedetector",
+      "community": 1,
+      "norm_label": "gesturedetector"
+    },
+    {
+      "label": "SizedBox",
+      "file_type": "code",
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_action_card_dart_sizedbox",
+      "community": 1,
+      "norm_label": "sizedbox"
+    },
+    {
+      "label": "Icon",
+      "file_type": "code",
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_action_card_dart_icon",
+      "community": 1,
+      "norm_label": "icon"
+    },
+    {
+      "label": "package:flutter/material.dart",
+      "file_type": "code",
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "id": "package_flutter_material_dart",
+      "community": 1,
+      "norm_label": "package:flutter/material.dart"
+    },
+    {
+      "label": "package:google_fonts/google_fonts.dart",
+      "file_type": "code",
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "id": "package_google_fonts_google_fonts_dart",
+      "community": 1,
+      "norm_label": "package:google_fonts/google_fonts.dart"
+    },
+    {
+      "label": "../models/insight_result.dart",
+      "file_type": "code",
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "id": "models_insight_result_dart",
+      "community": 4,
+      "norm_label": "../models/insight_result.dart"
+    },
+    {
+      "label": "gemini_agent_service.dart",
+      "file_type": "code",
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "id": "gemini_agent_service_dart",
+      "community": 4,
+      "norm_label": "gemini_agent_service.dart"
+    },
+    {
+      "label": "GeminiAgentService",
+      "file_type": "code",
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_gemini_agent_service_dart_geminiagentservice",
+      "community": 4,
+      "norm_label": "geminiagentservice"
+    },
+    {
+      "label": "InsightResult",
+      "file_type": "code",
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_gemini_agent_service_dart_insightresult",
+      "community": 4,
+      "norm_label": "insightresult"
+    },
+    {
+      "label": "_callGemini",
+      "file_type": "code",
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_gemini_agent_service_dart_callgemini",
+      "community": 4,
+      "norm_label": "_callgemini"
+    },
+    {
+      "label": "Exception",
+      "file_type": "code",
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_gemini_agent_service_dart_exception",
+      "community": 4,
+      "norm_label": "exception"
+    },
+    {
+      "label": "jsonDecode",
+      "file_type": "code",
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_gemini_agent_service_dart_jsondecode",
+      "community": 4,
+      "norm_label": "jsondecode"
+    },
+    {
+      "label": "dart:convert",
+      "file_type": "code",
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "id": "dart_convert",
+      "community": 4,
+      "norm_label": "dart:convert"
+    },
+    {
+      "label": "package:http/http.dart",
+      "file_type": "code",
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "id": "package_http_http_dart",
+      "community": 4,
+      "norm_label": "package:http/http.dart"
+    },
+    {
+      "label": "home_screen.dart",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "home_screen_dart",
+      "community": 2,
+      "norm_label": "home_screen.dart"
+    },
+    {
+      "label": "HomeScreen",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_home_screen_dart_homescreen",
+      "community": 2,
+      "norm_label": "homescreen"
+    },
+    {
+      "label": "_HomeScreenState",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_home_screen_dart_homescreenstate",
+      "community": 2,
+      "norm_label": "_homescreenstate"
+    },
+    {
+      "label": "_ExampleChip",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_home_screen_dart_examplechip",
+      "community": 2,
+      "norm_label": "_examplechip"
+    },
+    {
+      "label": "SnackBar",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_home_screen_dart_snackbar",
+      "community": 2,
+      "norm_label": "snackbar"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_home_screen_dart_build",
+      "community": 2,
+      "norm_label": "build"
+    },
+    {
+      "label": "Scaffold",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_home_screen_dart_scaffold",
+      "community": 2,
+      "norm_label": "scaffold"
+    },
+    {
+      "label": "_buildInputView",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_home_screen_dart_buildinputview",
+      "community": 2,
+      "norm_label": "_buildinputview"
+    },
+    {
+      "label": "SingleChildScrollView",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_home_screen_dart_singlechildscrollview",
+      "community": 2,
+      "norm_label": "singlechildscrollview"
+    },
+    {
+      "label": "SizedBox",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_home_screen_dart_sizedbox",
+      "community": 2,
+      "norm_label": "sizedbox"
+    },
+    {
+      "label": "_buildProcessingView",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_home_screen_dart_buildprocessingview",
+      "community": 2,
+      "norm_label": "_buildprocessingview"
+    },
+    {
+      "label": "Center",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_home_screen_dart_center",
+      "community": 2,
+      "norm_label": "center"
+    },
+    {
+      "label": "Padding",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_home_screen_dart_padding",
+      "community": 2,
+      "norm_label": "padding"
+    },
+    {
+      "label": "GestureDetector",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_home_screen_dart_gesturedetector",
+      "community": 2,
+      "norm_label": "gesturedetector"
+    },
+    {
+      "label": "package:flutter_animate/flutter_animate.dart",
+      "file_type": "code",
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "id": "package_flutter_animate_flutter_animate_dart",
+      "community": 5,
+      "norm_label": "package:flutter_animate/flutter_animate.dart"
+    },
+    {
+      "label": "../services/gemini_agent_service.dart",
+      "file_type": "code",
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "id": "services_gemini_agent_service_dart",
+      "community": 2,
+      "norm_label": "../services/gemini_agent_service.dart"
+    },
+    {
+      "label": "result_screen.dart",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "result_screen_dart",
+      "community": 0,
+      "norm_label": "result_screen.dart"
+    },
+    {
+      "label": "insight_card.dart",
+      "file_type": "code",
+      "source_file": "insight_card.dart",
+      "source_location": null,
+      "id": "insight_card_dart",
+      "community": 1,
+      "norm_label": "insight_card.dart"
+    },
+    {
+      "label": "InsightCard",
+      "file_type": "code",
+      "source_file": "insight_card.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_insight_card_dart_insightcard",
+      "community": 1,
+      "norm_label": "insightcard"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "insight_card.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_insight_card_dart_build",
+      "community": 1,
+      "norm_label": "build"
+    },
+    {
+      "label": "Container",
+      "file_type": "code",
+      "source_file": "insight_card.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_insight_card_dart_container",
+      "community": 1,
+      "norm_label": "container"
+    },
+    {
+      "label": "SizedBox",
+      "file_type": "code",
+      "source_file": "insight_card.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_insight_card_dart_sizedbox",
+      "community": 1,
+      "norm_label": "sizedbox"
+    },
+    {
+      "label": "insight_result.dart",
+      "file_type": "code",
+      "source_file": "insight_result.dart",
+      "source_location": null,
+      "id": "insight_result_dart",
+      "community": 6,
+      "norm_label": "insight_result.dart"
+    },
+    {
+      "label": "InsightResult",
+      "file_type": "code",
+      "source_file": "insight_result.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_insight_result_dart_insightresult",
+      "community": 6,
+      "norm_label": "insightresult"
+    },
+    {
+      "label": "ActionItem",
+      "file_type": "code",
+      "source_file": "insight_result.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_insight_result_dart_actionitem",
+      "community": 6,
+      "norm_label": "actionitem"
+    },
+    {
+      "label": "SimulationResult",
+      "file_type": "code",
+      "source_file": "insight_result.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_insight_result_dart_simulationresult",
+      "community": 6,
+      "norm_label": "simulationresult"
+    },
+    {
+      "label": "AgentStep",
+      "file_type": "code",
+      "source_file": "insight_result.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_insight_result_dart_agentstep",
+      "community": 6,
+      "norm_label": "agentstep"
+    },
+    {
+      "label": "ResultScreen",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_resultscreen",
+      "community": 0,
+      "norm_label": "resultscreen"
+    },
+    {
+      "label": "_ResultScreenState",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_resultscreenstate",
+      "community": 0,
+      "norm_label": "_resultscreenstate"
+    },
+    {
+      "label": "_InsightsTab",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_insightstab",
+      "community": 0,
+      "norm_label": "_insightstab"
+    },
+    {
+      "label": "_ActionsTab",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_actionstab",
+      "community": 0,
+      "norm_label": "_actionstab"
+    },
+    {
+      "label": "_ActionsTabState",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_actionstabstate",
+      "community": 0,
+      "norm_label": "_actionstabstate"
+    },
+    {
+      "label": "_SectionCard",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_sectioncard",
+      "community": 0,
+      "norm_label": "_sectioncard"
+    },
+    {
+      "label": "initState",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_initstate",
+      "community": 0,
+      "norm_label": "initstate"
+    },
+    {
+      "label": "dispose",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_dispose",
+      "community": 0,
+      "norm_label": "dispose"
+    },
+    {
+      "label": "_severityColor",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_severitycolor",
+      "community": 0,
+      "norm_label": "_severitycolor"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_build",
+      "community": 0,
+      "norm_label": "build"
+    },
+    {
+      "label": "Scaffold",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_scaffold",
+      "community": 0,
+      "norm_label": "scaffold"
+    },
+    {
+      "label": "SingleChildScrollView",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_singlechildscrollview",
+      "community": 0,
+      "norm_label": "singlechildscrollview"
+    },
+    {
+      "label": "SizedBox",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_sizedbox",
+      "community": 0,
+      "norm_label": "sizedbox"
+    },
+    {
+      "label": "Container",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_result_screen_dart_container",
+      "community": 0,
+      "norm_label": "container"
+    },
+    {
+      "label": "../widgets/insight_card.dart",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "widgets_insight_card_dart",
+      "community": 0,
+      "norm_label": "../widgets/insight_card.dart"
+    },
+    {
+      "label": "../widgets/action_card.dart",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "widgets_action_card_dart",
+      "community": 0,
+      "norm_label": "../widgets/action_card.dart"
+    },
+    {
+      "label": "../widgets/trace_timeline.dart",
+      "file_type": "code",
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "id": "widgets_trace_timeline_dart",
+      "community": 0,
+      "norm_label": "../widgets/trace_timeline.dart"
+    },
+    {
+      "label": "simulation_screen.dart",
+      "file_type": "code",
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "id": "simulation_screen_dart",
+      "community": 3,
+      "norm_label": "simulation_screen.dart"
+    },
+    {
+      "label": "SimulationScreen",
+      "file_type": "code",
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_simulation_screen_dart_simulationscreen",
+      "community": 3,
+      "norm_label": "simulationscreen"
+    },
+    {
+      "label": "_SimulationScreenState",
+      "file_type": "code",
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_simulation_screen_dart_simulationscreenstate",
+      "community": 3,
+      "norm_label": "_simulationscreenstate"
+    },
+    {
+      "label": "_StateCard",
+      "file_type": "code",
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_simulation_screen_dart_statecard",
+      "community": 3,
+      "norm_label": "_statecard"
+    },
+    {
+      "label": "_MetricChip",
+      "file_type": "code",
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_simulation_screen_dart_metricchip",
+      "community": 3,
+      "norm_label": "_metricchip"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_simulation_screen_dart_build",
+      "community": 3,
+      "norm_label": "build"
+    },
+    {
+      "label": "Scaffold",
+      "file_type": "code",
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_simulation_screen_dart_scaffold",
+      "community": 3,
+      "norm_label": "scaffold"
+    },
+    {
+      "label": "SizedBox",
+      "file_type": "code",
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_simulation_screen_dart_sizedbox",
+      "community": 3,
+      "norm_label": "sizedbox"
+    },
+    {
+      "label": "Text",
+      "file_type": "code",
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_simulation_screen_dart_text",
+      "community": 3,
+      "norm_label": "text"
+    },
+    {
+      "label": "Row",
+      "file_type": "code",
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_simulation_screen_dart_row",
+      "community": 3,
+      "norm_label": "row"
+    },
+    {
+      "label": "Icon",
+      "file_type": "code",
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_simulation_screen_dart_icon",
+      "community": 3,
+      "norm_label": "icon"
+    },
+    {
+      "label": "AnimatedContainer",
+      "file_type": "code",
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_simulation_screen_dart_animatedcontainer",
+      "community": 3,
+      "norm_label": "animatedcontainer"
+    },
+    {
+      "label": "Container",
+      "file_type": "code",
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_simulation_screen_dart_container",
+      "community": 3,
+      "norm_label": "container"
+    },
+    {
+      "label": "trace_timeline.dart",
+      "file_type": "code",
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "id": "trace_timeline_dart",
+      "community": 5,
+      "norm_label": "trace_timeline.dart"
+    },
+    {
+      "label": "TraceTimeline",
+      "file_type": "code",
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_trace_timeline_dart_tracetimeline",
+      "community": 5,
+      "norm_label": "tracetimeline"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_trace_timeline_dart_build",
+      "community": 5,
+      "norm_label": "build"
+    },
+    {
+      "label": "SingleChildScrollView",
+      "file_type": "code",
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_trace_timeline_dart_singlechildscrollview",
+      "community": 5,
+      "norm_label": "singlechildscrollview"
+    },
+    {
+      "label": "SizedBox",
+      "file_type": "code",
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_trace_timeline_dart_sizedbox",
+      "community": 5,
+      "norm_label": "sizedbox"
+    },
+    {
+      "label": "Spacer",
+      "file_type": "code",
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_trace_timeline_dart_spacer",
+      "community": 5,
+      "norm_label": "spacer"
+    },
+    {
+      "label": "Row",
+      "file_type": "code",
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_trace_timeline_dart_row",
+      "community": 5,
+      "norm_label": "row"
+    },
+    {
+      "label": "Icon",
+      "file_type": "code",
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "id": "d_hackathon_flutter_app_trace_timeline_dart_icon",
+      "community": 5,
+      "norm_label": "icon"
+    }
+  ],
+  "links": [
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "action_card_dart",
+      "target": "d_hackathon_flutter_app_action_card_dart_actioncard"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "action_card_dart",
+      "target": "d_hackathon_flutter_app_action_card_dart_prioritycolor"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "action_card_dart",
+      "target": "d_hackathon_flutter_app_action_card_dart_effortcolor"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "action_card_dart",
+      "target": "d_hackathon_flutter_app_action_card_dart_build"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "action_card_dart",
+      "target": "d_hackathon_flutter_app_action_card_dart_gesturedetector"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "action_card_dart",
+      "target": "d_hackathon_flutter_app_action_card_dart_sizedbox"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "action_card_dart",
+      "target": "d_hackathon_flutter_app_action_card_dart_icon"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "action_card_dart",
+      "target": "package_flutter_material_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "action_card_dart",
+      "target": "package_google_fonts_google_fonts_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "action_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "action_card_dart",
+      "target": "models_insight_result_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "package_flutter_material_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "insight_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "insight_card_dart",
+      "target": "package_flutter_material_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "package_flutter_material_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "package_flutter_material_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "trace_timeline_dart",
+      "target": "package_flutter_material_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "package_google_fonts_google_fonts_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "insight_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "insight_card_dart",
+      "target": "package_google_fonts_google_fonts_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "package_google_fonts_google_fonts_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "package_google_fonts_google_fonts_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "trace_timeline_dart",
+      "target": "package_google_fonts_google_fonts_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "gemini_agent_service_dart",
+      "target": "models_insight_result_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "models_insight_result_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "models_insight_result_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "models_insight_result_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "trace_timeline_dart",
+      "target": "models_insight_result_dart"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "gemini_agent_service_dart",
+      "target": "d_hackathon_flutter_app_gemini_agent_service_dart_geminiagentservice"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "gemini_agent_service_dart",
+      "target": "d_hackathon_flutter_app_gemini_agent_service_dart_insightresult"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "gemini_agent_service_dart",
+      "target": "d_hackathon_flutter_app_gemini_agent_service_dart_callgemini"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "gemini_agent_service_dart",
+      "target": "d_hackathon_flutter_app_gemini_agent_service_dart_exception"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "gemini_agent_service_dart",
+      "target": "d_hackathon_flutter_app_gemini_agent_service_dart_jsondecode"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "gemini_agent_service_dart",
+      "target": "dart_convert"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "gemini_agent_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "gemini_agent_service_dart",
+      "target": "package_http_http_dart"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "d_hackathon_flutter_app_home_screen_dart_homescreen"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "d_hackathon_flutter_app_home_screen_dart_homescreenstate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "d_hackathon_flutter_app_home_screen_dart_examplechip"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "d_hackathon_flutter_app_home_screen_dart_snackbar"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "d_hackathon_flutter_app_home_screen_dart_build"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "d_hackathon_flutter_app_home_screen_dart_scaffold"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "d_hackathon_flutter_app_home_screen_dart_buildinputview"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "d_hackathon_flutter_app_home_screen_dart_singlechildscrollview"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "d_hackathon_flutter_app_home_screen_dart_sizedbox"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "d_hackathon_flutter_app_home_screen_dart_buildprocessingview"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "d_hackathon_flutter_app_home_screen_dart_center"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "d_hackathon_flutter_app_home_screen_dart_padding"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "d_hackathon_flutter_app_home_screen_dart_gesturedetector"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "package_flutter_animate_flutter_animate_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "services_gemini_agent_service_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "home_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "home_screen_dart",
+      "target": "result_screen_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "package_flutter_animate_flutter_animate_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "package_flutter_animate_flutter_animate_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "trace_timeline_dart",
+      "target": "package_flutter_animate_flutter_animate_dart"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_resultscreen"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_resultscreenstate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_insightstab"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_actionstab"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_actionstabstate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_sectioncard"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_initstate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_dispose"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_severitycolor"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_build"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_scaffold"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_singlechildscrollview"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_sizedbox"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "d_hackathon_flutter_app_result_screen_dart_container"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "widgets_insight_card_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "widgets_action_card_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "widgets_trace_timeline_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "result_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "result_screen_dart",
+      "target": "simulation_screen_dart"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "insight_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "insight_card_dart",
+      "target": "d_hackathon_flutter_app_insight_card_dart_insightcard"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "insight_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "insight_card_dart",
+      "target": "d_hackathon_flutter_app_insight_card_dart_build"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "insight_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "insight_card_dart",
+      "target": "d_hackathon_flutter_app_insight_card_dart_container"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "insight_card.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "insight_card_dart",
+      "target": "d_hackathon_flutter_app_insight_card_dart_sizedbox"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "insight_result.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "insight_result_dart",
+      "target": "d_hackathon_flutter_app_insight_result_dart_insightresult"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "insight_result.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "insight_result_dart",
+      "target": "d_hackathon_flutter_app_insight_result_dart_actionitem"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "insight_result.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "insight_result_dart",
+      "target": "d_hackathon_flutter_app_insight_result_dart_simulationresult"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "insight_result.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "insight_result_dart",
+      "target": "d_hackathon_flutter_app_insight_result_dart_agentstep"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "d_hackathon_flutter_app_simulation_screen_dart_simulationscreen"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "d_hackathon_flutter_app_simulation_screen_dart_simulationscreenstate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "d_hackathon_flutter_app_simulation_screen_dart_statecard"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "d_hackathon_flutter_app_simulation_screen_dart_metricchip"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "d_hackathon_flutter_app_simulation_screen_dart_build"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "d_hackathon_flutter_app_simulation_screen_dart_scaffold"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "d_hackathon_flutter_app_simulation_screen_dart_sizedbox"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "d_hackathon_flutter_app_simulation_screen_dart_text"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "d_hackathon_flutter_app_simulation_screen_dart_row"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "d_hackathon_flutter_app_simulation_screen_dart_icon"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "d_hackathon_flutter_app_simulation_screen_dart_animatedcontainer"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "simulation_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "simulation_screen_dart",
+      "target": "d_hackathon_flutter_app_simulation_screen_dart_container"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "trace_timeline_dart",
+      "target": "d_hackathon_flutter_app_trace_timeline_dart_tracetimeline"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "trace_timeline_dart",
+      "target": "d_hackathon_flutter_app_trace_timeline_dart_build"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "trace_timeline_dart",
+      "target": "d_hackathon_flutter_app_trace_timeline_dart_singlechildscrollview"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "trace_timeline_dart",
+      "target": "d_hackathon_flutter_app_trace_timeline_dart_sizedbox"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "trace_timeline_dart",
+      "target": "d_hackathon_flutter_app_trace_timeline_dart_spacer"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "trace_timeline_dart",
+      "target": "d_hackathon_flutter_app_trace_timeline_dart_row"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "trace_timeline.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "trace_timeline_dart",
+      "target": "d_hackathon_flutter_app_trace_timeline_dart_icon"
+    }
+  ],
+  "hyperedges": []
+}

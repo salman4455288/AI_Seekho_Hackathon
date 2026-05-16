@@ -1,0 +1,130 @@
+{
+  "D:\\hackathon\\Flutter_app\\action_card.dart": {
+    "mtime": 1778932086.6577039,
+    "hash": "30e6ca044ac5450b45a447a69ba386d9"
+  },
+  "D:\\hackathon\\Flutter_app\\gemini_agent_service.dart": {
+    "mtime": 1778932086.5789676,
+    "hash": "1f77e328280959058e2c1750c75fd7e7"
+  },
+  "D:\\hackathon\\Flutter_app\\home_screen.dart": {
+    "mtime": 1778932086.6016748,
+    "hash": "16bc326ff0fa93f417312886203f6f6d"
+  },
+  "D:\\hackathon\\Flutter_app\\insight_card.dart": {
+    "mtime": 1778932086.6703305,
+    "hash": "283947e778bc3bbead1556853b4b6264"
+  },
+  "D:\\hackathon\\Flutter_app\\insight_result.dart": {
+    "mtime": 1778932086.6432471,
+    "hash": "f376d4decfbb76b17ed9d7c8b6ca9500"
+  },
+  "D:\\hackathon\\Flutter_app\\result_screen.dart": {
+    "mtime": 1778932086.616452,
+    "hash": "e88d4378c84e5a716fd1a240410392d1"
+  },
+  "D:\\hackathon\\Flutter_app\\simulation_screen.dart": {
+    "mtime": 1778932086.6307144,
+    "hash": "700418fb27905158b96e6f1825c4358d"
+  },
+  "D:\\hackathon\\Flutter_app\\trace_timeline.dart": {
+    "mtime": 1778932086.685286,
+    "hash": "1ff4dbfbaea0e5568b1998ce4f5eed3c"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\README.md": {
+    "mtime": 1778926447.4673977,
+    "hash": "72690802055a0a00f32beebab12c0806"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\exercises\\README.md": {
+    "mtime": 1778926447.5014544,
+    "hash": "04bf7acb68f56b44c3a817bf394fcaf5"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\exercises\\consolidation\\parent-subsidiary-data.md": {
+    "mtime": 1778926447.5715952,
+    "hash": "9da872b68f565ff788956217a6d73c95"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\exercises\\entity-profiles\\crescent-textiles.md": {
+    "mtime": 1778926447.5900922,
+    "hash": "4b505aadade0161990536c533b01e4f9"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\exercises\\entity-profiles\\karachi-foods.md": {
+    "mtime": 1778926447.5978677,
+    "hash": "369d05e8018079d239e4d244b023e8e6"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\exercises\\source-documents\\sample-invoices.md": {
+    "mtime": 1778926447.6151805,
+    "hash": "25a27a97f8179047324f2795816bd829"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\exercises\\working-papers\\audit-planning-template.md": {
+    "mtime": 1778926447.6605065,
+    "hash": "4ddfd5b34637a5417d3d2cf5ddc641e1"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\exercises\\working-papers\\revenue-testing-template.md": {
+    "mtime": 1778926447.6699343,
+    "hash": "949ecc602877d90be622745fa0779956"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\reference-skills\\README.md": {
+    "mtime": 1778926447.6804588,
+    "hash": "55b4d0c144a54fcd1aa89a0f73e8f438"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\reference-skills\\audit-methodology\\SKILL.md": {
+    "mtime": 1778926447.6933024,
+    "hash": "c461089e1dd27b9e138fa4e24fc99b8b"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\reference-skills\\chart-of-accounts\\SKILL.md": {
+    "mtime": 1778926447.7051008,
+    "hash": "48c79d55907c983ad89ba39b0ee84104"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\reference-skills\\client-entity\\SKILL.md": {
+    "mtime": 1778926447.730718,
+    "hash": "078a85ee898aeeee8e9b5314bca2d201"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\reference-skills\\compliance-calendar\\SKILL.md": {
+    "mtime": 1778926447.7422872,
+    "hash": "d9a419f0f65fb1c4fa1f8f05fffbb734"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\reference-skills\\pakistan-tax-jurisdiction\\SKILL.md": {
+    "mtime": 1778926447.7667024,
+    "hash": "6f3f4e23b0d7342cfadde95b9a685ed9"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\workflow-recipes\\audit-programme.md": {
+    "mtime": 1778926447.7816834,
+    "hash": "5d558e63b0e3ab8e3a08e3474af1099e"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\workflow-recipes\\board-pack.md": {
+    "mtime": 1778926447.7932954,
+    "hash": "6374597a720d84a8c54eb0ed57e2cb84"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\workflow-recipes\\compliance-monitoring.md": {
+    "mtime": 1778926447.7997963,
+    "hash": "06ab2b96c46ea28182d98240106c5f67"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\workflow-recipes\\fraud-monitoring.md": {
+    "mtime": 1778926447.8090115,
+    "hash": "95bd24a047f28b7dfe871c6e4f98edfa"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\workflow-recipes\\month-end-close.md": {
+    "mtime": 1778926447.8155441,
+    "hash": "7662a1fbff0c367aa42528ee0d10c70c"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\workflow-recipes\\README.md": {
+    "mtime": 1778926447.7769055,
+    "hash": "8cfcbb406c8f51ea34829c070a9d7dd5"
+  },
+  "D:\\hackathon\\ca-cpa-practice-agents-main\\workflow-recipes\\tax-computation.md": {
+    "mtime": 1778926447.8242888,
+    "hash": "84cd95c4e851377830e52c8ba3b12c41"
+  },
+  "D:\\hackathon\\Flutter_app\\pubspec.yaml": {
+    "mtime": 1778932086.700583,
+    "hash": "148a08c5a42b50dcef228c1a9415e068"
+  },
+  "D:\\hackathon\\Flutter_app\\README.md": {
+    "mtime": 1778932086.5515158,
+    "hash": "efe3bad32a2ecfbdd69512a623d0647b"
+  },
+  "D:\\hackathon\\Project_work_flow.pdf": {
+    "mtime": 1778931574.3571143,
+    "hash": "e01f882ff631b73ebcd5f5d2eb1de431"
+  }
+}
