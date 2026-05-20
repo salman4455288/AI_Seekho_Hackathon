@@ -53,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
       final result = await FilePicker.platform.pickFiles(
         allowMultiple: true,
         type: FileType.custom,
-        allowedExtensions: ['pdf'],
+        allowedExtensions: ['pdf', 'png', 'jpg', 'jpeg', 'csv', 'txt'],
         withData: true, // Crucial: loads bytes into memory for Gemini!
       );
 
@@ -85,11 +85,30 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
     if (_controller.text.trim().isEmpty && _selectedFiles.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('Please enter text or upload PDFs to analyze',
+          content: Text('Please enter text or upload files to analyze',
               style: GoogleFonts.inter()),
           backgroundColor: const Color(0xFFEF4444),
           behavior: SnackBarBehavior.floating,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+        ),
+      );
+      return;
+    }
+
+    // ── Pre-flight check: Max 15MB inline payload limit for Gemini REST API ──
+    int totalBytes = 0;
+    for (var f in _selectedFiles) {
+      totalBytes += f.size;
+    }
+    if (totalBytes > 15 * 1024 * 1024) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('Total file size exceeds 15MB limit. Please remove some files.',
+              style: GoogleFonts.inter()),
+          backgroundColor: const Color(0xFFEF4444),
+          behavior: SnackBarBehavior.floating,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+          duration: const Duration(seconds: 4),
         ),
       );
       return;
@@ -378,7 +397,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
 
           // ── Upload Documents Zone ──────────────────────────────────
           Text(
-            'Upload Financial Documents',
+            'Upload Unstructured Input',
             style: GoogleFonts.inter(
               fontSize: 15,
               fontWeight: FontWeight.w700,
@@ -397,7 +416,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                 border: Border.all(
                   color: const Color(0xFF7C3AED).withOpacity(0.4),
                   width: 1.5,
-                  style: BorderStyle.solid, // Flutter doesn't natively support dashed borders easily
+                  style: BorderStyle.solid,
                 ),
               ),
               child: Column(
@@ -413,7 +432,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                   ),
                   const SizedBox(height: 16),
                   Text(
-                    'Tap to browse PDFs',
+                    'Tap to browse files',
                     style: GoogleFonts.inter(
                       fontSize: 15,
                       fontWeight: FontWeight.w600,
@@ -422,7 +441,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    'Invoices, Tax Returns, Sales Reports',
+                    'PDFs, Images (Dashboards), CSVs, Text',
                     style: GoogleFonts.inter(
                       fontSize: 12,
                       color: cs.onSurface.withOpacity(0.5),
@@ -448,8 +467,15 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                     ),
                     child: Row(
                       children: [
-                        const Icon(Icons.picture_as_pdf_rounded,
-                            color: Color(0xFFEF4444), size: 20),
+                        Icon(
+                          file.extension == 'pdf' 
+                              ? Icons.picture_as_pdf_rounded 
+                              : file.extension == 'csv' 
+                                  ? Icons.table_chart_rounded 
+                                  : file.extension?.startsWith('jp') == true || file.extension == 'png'
+                                      ? Icons.image_rounded
+                                      : Icons.insert_drive_file_rounded,
+                            color: const Color(0xFFEF4444), size: 20),
                         const SizedBox(width: 12),
                         Expanded(
                           child: Column(

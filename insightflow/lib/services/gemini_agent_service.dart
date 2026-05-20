@@ -27,7 +27,7 @@ class GeminiAgentService {
 
     // Initialize GenerativeModel using the Dart SDK
     final model = GenerativeModel(
-      model: 'gemini-2.5-flash',
+      model: 'gemini-3-flash-preview',
       apiKey: _apiKey,
       generationConfig: GenerationConfig(
         temperature: 0.4,
@@ -100,7 +100,15 @@ You MUST return ONLY valid JSON matching this exact structure:
       if (files != null && files.isNotEmpty) {
         for (final file in files) {
           if (file.bytes != null) {
-            parts.add(DataPart('application/pdf', file.bytes!));
+            final ext = file.extension?.toLowerCase();
+            String mimeType = 'application/pdf'; // Default fallback
+            
+            if (ext == 'png') mimeType = 'image/png';
+            else if (ext == 'jpg' || ext == 'jpeg') mimeType = 'image/jpeg';
+            else if (ext == 'csv') mimeType = 'text/csv';
+            else if (ext == 'txt') mimeType = 'text/plain';
+
+            parts.add(DataPart(mimeType, file.bytes!));
           }
         }
       }
