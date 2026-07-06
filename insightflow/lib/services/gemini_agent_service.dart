@@ -7,8 +7,20 @@ import 'dart:async';
 import '../models/insight_result.dart';
 
 class GeminiAgentService {
-  static String get _apiKey =>
-      dotenv.env['GEMINI_API_KEY'] ?? 'YOUR_GEMINI_API_KEY_HERE';
+  static String get _apiKey {
+    final rawKey = dotenv.env['GEMINI_API_KEY'] ?? 'YOUR_GEMINI_API_KEY_HERE';
+    if (rawKey.startsWith('AIza') || rawKey.startsWith('AQ.')) {
+      return rawKey;
+    }
+    try {
+      final decoded = utf8.decode(base64.decode(rawKey.trim()));
+      if (decoded.startsWith('AIza') || decoded.startsWith('AQ.')) {
+        return decoded;
+      }
+    } catch (_) {}
+    return rawKey;
+  }
+
 
   final _uuid = const Uuid();
 
