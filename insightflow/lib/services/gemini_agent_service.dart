@@ -8,18 +8,30 @@ import '../models/insight_result.dart';
 
 class GeminiAgentService {
   static String get _apiKey {
+    // 1. Try to get it from build-time environment (dart-define)
+    const buildTimeKey = String.fromEnvironment('GEMINI_API_KEY');
+    if (buildTimeKey.isNotEmpty && buildTimeKey != 'YOUR_GEMINI_API_KEY_HERE') {
+      return _decodeIfBase64(buildTimeKey);
+    }
+    
+    // 2. Fallback to runtime dotenv
     final rawKey = dotenv.env['GEMINI_API_KEY'] ?? 'YOUR_GEMINI_API_KEY_HERE';
-    if (rawKey.startsWith('AIza') || rawKey.startsWith('AQ.')) {
-      return rawKey;
+    return _decodeIfBase64(rawKey);
+  }
+
+  static String _decodeIfBase64(String key) {
+    if (key.startsWith('AIza') || key.startsWith('AQ.')) {
+      return key;
     }
     try {
-      final decoded = utf8.decode(base64.decode(rawKey.trim()));
+      final decoded = utf8.decode(base64.decode(key.trim()));
       if (decoded.startsWith('AIza') || decoded.startsWith('AQ.')) {
         return decoded;
       }
     } catch (_) {}
-    return rawKey;
+    return key;
   }
+
 
 
   final _uuid = const Uuid();
